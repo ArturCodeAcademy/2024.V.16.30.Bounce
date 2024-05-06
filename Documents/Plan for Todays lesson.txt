@@ -1,0 +1,38 @@
+Lesson: 4
+	+Quick demo how to change terrain Texture
+		--> Hierachy 
+		--> Terrain Object
+		--> Inspector
+		--> Terrain component
+		--> Pain terrain
+		--> Select/Add Terrain layer to Paint
+		[Note] 1st layer always is default, add more if you want to paint
+	Movable platform (horizontal lift)
+		[Unity] Create platform Object
+			+ Create 3D cube
+			+ Make lift form (flatting the object)
+			*Add gameobject that specify Starting and end locations
+			*Attach the Platform script
+		[Code] Script for object To move
+			*Move platform object between specified points
+			Start moving when player jumped on top
+				Should always return to oposite or starting position
+			Move player with the platform itself (move temp parent)
+				
+			[Optional]After x amount of time platform becomes disabled/passtrought
+			
+		
+	[Optional] Ambient music | Sound effects (SFX)
+
+Backlog 
+	Insivisable wall in between zones
+	Lifts between different levels/zones
+		When you finish level you getting transported with lift to another level/zone
+	Traps (invisable obstacles that appears when you go close)
+	Hidden places
+		Object that teleports you to specified location 
+	Checkpoints
+	Add user feedback 
+		Sound effects (SFX)
+		Ambient music
+	

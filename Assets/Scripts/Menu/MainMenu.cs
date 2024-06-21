@@ -22,7 +22,7 @@ public class MainMenu : MonoBehaviour
 			string sceneName = SceneUtility.GetScenePathByBuildIndex(i) + "_record";
 			int record = PlayerPrefs.GetInt(sceneName, 0);
 			if (record > 0)
-				recordText.text = $"Best time:\n{record/60}:{record%60}";
+				recordText.text = $"Best time:\n{record/60:00}:{record%60:00}";
 			else
 				recordText.text = "No record";
 
